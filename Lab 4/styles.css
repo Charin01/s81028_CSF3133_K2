@@ -1,0 +1,52 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, nav, section, article, footer {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+video {
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.styled-form p {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    padding: 5px;
+    width: 250px;
+}
+
+button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover {
+        background-color: #004080;
+    }
