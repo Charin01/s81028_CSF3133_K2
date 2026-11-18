@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav.navbar {
+    background-color: #003366;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 4px;
+}
+
+nav.navbar a:hover, 
+nav.navbar a.active {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+}
+
+main.container {
+    max-width: 900px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+    flex: 1;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.header-section h1 {
+    font-size: 2.2rem;
+    color: #003366;
+    margin-bottom: 0.5rem;
+}
+
+.sub {
+    font-size: 1.1rem;
+    color: #555555;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    border-left: 4px solid #003366;
+    padding-left: 1rem;
+}
+
+.history p {
+    margin-bottom: 1.25rem;
+    text-align: justify;
+    color: #444444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: #ffffff;
+    font-size: 0.95rem;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+table th {
+    background-color: #003366;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+footer.footer {
+    background-color: #e2e8f0;
+    color: #475569;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #cbd5e1;
+    margin-top: auto;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-section {
+    background-image: url("header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+.header-section h1, 
+.header-section p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.navbar li{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+    float: left;
+    display: block;
+}
+
+.navbar a{
+    display: block;
+    padding: 10px;
+}
+
+.navbar :hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar :active{
+    background-color: #808080;
+    color: #000000;
+}
